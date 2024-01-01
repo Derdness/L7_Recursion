@@ -7,6 +7,8 @@
 Random rng = new Random();
 int m = rng.Next(51);
 int n = rng.Next(51,101);
+Console.WriteLine($"Промежуток: [{m}, {n}]");
+RecursiveCount(m,n);
 
 ///<summary>
 ///Выводит все числа в (закрытом) промежутке от from до to
